@@ -10,4 +10,4 @@ Sistema Operativo: Android
 Versión de la App: Instagram Lite v500.0.0.5.103
 Conectividad: WiFi / Datos móviles
 Herramientas: Dispositivo, captura de pantalla, Excel para registro de casos
-# ProyectoFinal-Nerea
+
