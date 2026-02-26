@@ -1,0 +1,42 @@
+- Alcance:
+Se realizaron pruebas funcionales sobre la aplicación Instagram Lite, enfocadas en: Publicación de contenido, inicio de sesión y seguridad de cuentas, visualización de publicaciones y navegación por el perfil.
+
+
+- Ambiente de prueba:
+
+Dispositivo:	Samsung S24FE
+Sistema Operativo:	Android 
+Versión de la App:	Instagram Lite v500.0.0.5.103
+Conectividad:	WiFi y datos móviles
+Herramientas:	Dispositivo real, captura de pantalla, Excel para registro de casos.
+
+
+- Resultados:
+
+Se ejecutaron todos los casos de prueba planificados (10 casos funcionales). Se observaron defectos en funcionalidades críticas como cancelación de posteo en modo avión e ilimitación de intentos de login.
+
+
+- Defectos críticos identificados:
+
+ID	Descripción                                                                                                         Severidad 
+BUG01   Intentos de login ilimitados.                                                                                       Crítica
+BUG02   Cancelación de posteo en modo avión.                                                                                Alta
+BUG03   Algunas imágenes se cortan o muestran comportamiento irregular al desplazarse por el perfil.                        Media
+
+
+-Conclusiones:
+
+Seguridad: La falta de limitación de intentos de login representa un riesgo crítico.
+
+Usabilidad: La navegación en el perfil y la visualización de imágenes presentan inconsistencias que afectan la experiencia de usuario.
+
+
+
+- Recomendaciones para el cliente o equipo de desarrollo:
+
+1-Implementar bloqueo temporal o notificación tras varios intentos fallidos de inicio de sesión.
+
+2-Manejar correctamente posteo en modo offline, mostrando mensajes claros y cancelando acción.
+
+3-Revisar comportamiento de imágenes de publicaciones, asegurando consistencia y alineación.
+
